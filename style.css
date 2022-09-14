@@ -1,0 +1,190 @@
+    /* FATİH */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 242, 237);
+  }
+  .nav-bar {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    height: 10vh;
+  }
+  /* .left-bar{
+      
+  } */
+  
+  .mid-bar {
+  }
+  
+  .mid-bar a {
+    color: rgb(44, 75, 75);
+    font-weight: bold;
+  }
+  .right-bar {
+  }
+  .right-bar a {
+    border: 1px solid;
+    border-radius: 2rem;
+    background-color: rgb(81, 154, 130);
+    color: white;
+  }
+  .right-bar:hover a{
+    background-color: black;
+    
+  }
+  .text-style {
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  /*Card-container*/
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+  }
+  .left-container {
+    width: 30vw;
+  }
+  .left-intro {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+  }
+  .left-intro h1 {
+    color: rgb(140, 193, 145);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .left-intro p {
+    color: rgb(44, 75, 75);
+    margin-bottom: 1rem;
+  }
+        /* İNPUT AREA */
+  .form-area{
+    position: relative;
+    width: fit-content;
+  }
+  .form-area input {
+    width: 20rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    
+    text-align: center;
+  }
+  .form-area i{
+    position: absolute;
+    z-index: 1;
+  }
+  .fa-location-dot{
+    font-size: 1.5rem;
+    margin-top: 0.3%;
+    left: 3%;
+    
+  }
+  .fa-arrow-right{
+    background-color:rgb(245, 134, 110) ;
+    border-radius: 50%;
+    color: white;
+    padding: 0.5rem;
+    right: 0;
+    top: 4%;
+    
+    
+  }
+  
+  
+  
+  .right-container {
+    width: 70vw;
+  }
+  .right-container img {
+    width: 100%;
+  }
+  
+        /* YUSUF */
+.shoppers {
+    /* position: relative;*/
+    width: 1260px;
+    height: 479px;
+    left: 30px;
+    top: 1511px;
+    background-color: #d2deda;
+    color: #092e17;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+
+.left-img {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+
+}
+
+.page-headers{
+    position: absolute;
+    width: 560px;
+    height: 110px;
+    left: 680px;
+    top: 150px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: 700px;
+
+
+}
+
+
+.page-explations{
+
+    width: 500px;
+    height: 100px;
+    left: 680px;
+    top: 1700px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 50px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: 700px;
+
+    
+}
