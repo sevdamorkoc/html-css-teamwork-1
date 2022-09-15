@@ -9,3 +9,5 @@
 ![alt text](./readme-images.png)
  
  //footer ile ilgili calismalaimi yaptiktan sonra tekrar commit yapacagim
+
+//**css ile ilgili kısımlar ile ilgili eksiklikleri daa sonra ekleyecegim**
